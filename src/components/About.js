@@ -28,11 +28,11 @@ const About = () => {
                         type='search'
                         name='Search'
                         placeholder='Search...'
-                        className='w-full py-3 pl-12 text-sm rounded-full sm:w-96 focus:outline-none bg-gray-200 text-gray-800 focus:bg-gray-300'
+                        className='w-full py-3 pl-12 text-sm rounded-full sm:w-96 focus:outline-none bg-green-200 text-gray-800 focus:bg-gray-300'
                     />
                 </div>
                 <div className='flex flex-col w-full divide-y sm:flex-row sm:divide-y-0 sm:divide-x sm:px-8 lg:px-12 xl:px-32 divide-gray-700'>
-                    <div className='flex flex-col w-full divide-y divide-gray-700'>
+                    <div className='flex flex-col w-full divide-y divide-green-700'>
                         <Link
                             to='/support'
                             className='flex items-center justify-center p-4 sm:py-8 lg:py-12'
@@ -52,7 +52,7 @@ const About = () => {
                             Account
                         </Link>
                     </div>
-                    <div className='flex flex-col w-full divide-y divide-gray-700'>
+                    <div className='flex flex-col w-full divide-y divide-green-700'>
                         <Link
                             to='/support'
                             className='flex items-center justify-center p-4 sm:py-8 lg:py-12'
@@ -72,7 +72,7 @@ const About = () => {
                             My orders
                         </Link>
                     </div>
-                    <div className='hidden w-full divide-y sm:flex-col sm:flex divide-gray-700'>
+                    <div className='hidden w-full divide-y sm:flex-col sm:flex divide-green-700'>
                         <Link
                             to='/support'
                             className='flex items-center justify-center p-4 sm:py-8 lg:py-12'

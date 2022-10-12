@@ -7,7 +7,7 @@ const Blog = () => {
                 <h2 className="text-2xl font-semibold my-5 sm:text-4xl">Frequently Asked Questions</h2>
                 <div className="space-y-4">
                     <details className="w-full border rounded-lg" open="">
-                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">What is the purpose of react router?</summary>
+                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-blue-400">What is the purpose of react router?</summary>
                         <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.</p>
                     </details>
                     <details className="w-full border rounded-lg">
